@@ -16,7 +16,7 @@ recursivo:
 	sw ra, 0(sp)
 	sw a1, 4(sp)
 	addi a2,a2, -1 # n -=1;
-    	jal  ra, potencia
+    jal  ra, potencia
 	lw a1, 4(sp)
 	lw ra, 0(sp)
 	addi sp, sp, 8
